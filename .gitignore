@@ -1,0 +1,44 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore node modules (if you use Node.js)
+node_modules/
+
+# Ignore environment files
+.env
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+
+# Ignore build files
+dist/
+build/
+*.class
+*.jar
+
+# Ignore macOS system files
+*.DS_Store
+
+# Ignore Windows system files
+*.Thumbs.db
+
+# Ignore temporary files
+*.swp
+*.swo
+*.tmp
+
+# Ignore uploads or other user-generated content
+uploads/
