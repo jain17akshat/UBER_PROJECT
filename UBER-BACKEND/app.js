@@ -5,7 +5,8 @@ const cors = require('cors');
 const connectToDb = require('./db/db');
 const userRoutes = require('./routes/user.routes');
 const cookieParser=require("cookie-parser")
-// Load environment variables first
+const captainRoutes=require("./routes/captain.routes")
+
 dotenv.config();
 
 // Connect to the database after the environment variables are loaded
@@ -30,5 +31,5 @@ app.get('/', (req, res) => {
 });
 
 app.use('/users', userRoutes);
-
+app.use('/captain',captainRoutes)
 module.exports = app;
