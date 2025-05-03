@@ -31,6 +31,7 @@ const UserSignup = () => {
       email: email,
       password: password
     }
+    console.log("BASE_URL =", import.meta.env.VITE_BASE_URL)
 
     const response = await axios.post(`${import.meta.env.VITE_BASE_URL}/users/register`, newUser)
 
