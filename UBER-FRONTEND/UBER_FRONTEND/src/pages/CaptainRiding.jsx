@@ -56,7 +56,7 @@ const CaptainRiding = () => {
             </div>
 
             <div className='h-screen fixed w-screen top-0 z-[-1]'>
-                <LiveTracking />
+                {/* <LiveTracking /> */}
             </div>
 
         </div>
